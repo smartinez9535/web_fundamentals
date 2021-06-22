@@ -1,0 +1,35 @@
+
+#search{
+    height: 30px;
+    width: 150px;
+    margin: 10px;
+    font-size: 110%;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 0;
+}
+
+#plus{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 130%;
+    text-align: center;
+    color: white;
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+}
+
+#create{
+    height: 40px;
+    width: 200px;
+    margin: 20px;
+    font-size: 120%;
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+    box-shadow: 3px 3px black;
+}

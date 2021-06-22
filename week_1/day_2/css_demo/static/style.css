@@ -1,0 +1,71 @@
+/*
+Cascading Style Sheets
+*/
+
+/*
+
+Selector{
+        Attributes : Properties;
+}
+
+*/
+
+/* CSS Reset : Different browsers have different defaults, this forces it to start at the same point, much more needs to be reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: seagreen;
+    min-height: 500px;
+    padding: 20px;
+}
+
+/*
+h1{
+    color: dodgerblue;
+    background-color: black;
+}
+*/
+
+p{
+    color: white;
+}
+
+/* IDs and Classes */
+#header{
+    color: dodgerblue;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 50px 20px 0px;
+    display: inline-block; /* Takes up the amount of space it needs */
+}
+
+#explanation{
+    display: inline-block;
+    vertical-align: top; /* Align to top of adjacent text */
+}
+
+.text-white{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text-blue{
+    color: dodgerblue;
+}
+
+/* Direct child of footer: #footer h3 would target all children + grandchildren and so on*/
+#footer > h3{
+    color: white;
+}
+
+/* Target both specifically */
+#footer > p{
+    color: black;
+}
+
+span{
+    color: firebrick;
+}
