@@ -4,7 +4,7 @@
     max-width: 1200px;
     max-height: 1000px;
     outline: 1px solid black;
-    background-color: red;
+    background-color: white;
     display: inline-block;
 }
 .blue{
@@ -21,10 +21,10 @@
     display: inline-block;
     margin: 0px;
 }
-/*.red{
+.red{
     width: 399px;
     height: 1000px;
     background-color: red;
     display: inline-block;
     margin: 0px;
-}*/
+}
