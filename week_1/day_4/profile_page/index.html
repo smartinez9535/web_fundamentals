@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <button id="sign-out">Sign Out</button>
+        </div>
+        <div class="main">
+            <div class="main-left">
+                <div class="left-card"><!--First card-->
+                    <img id="user-img" src="static/images/jane-m.jpg" alt="jane photo">
+                    <h1 id="user-bar"></h1>
+                    <h1 id="name">Jane Doe</h1>
+                    <div class="img-bar-main">
+                        <img id="marker-image" src="static/icons/map-marker.png" alt="map marker">
+                        <h3 class="details">Seattle</h3>
+                    </div>
+                    <div class="text-bar">
+                        <h3 class="details">Developer | Engineer | Problem Solver</h3>
+                    </div>
+                    <div class="text-bar">
+                        <h3 class="details">Master of shadows and the Internet!</h3>
+                    </div>
+                    <div class="img-bar-main">
+                        <img id="gear-image" src="static/icons/gear.png" alt="gear marker">
+                        <h4 class="details"><a href="#2">edit profile</a></h4>
+                    </div>
+                </div>
+                <div class="left-card"><!--Second card-->
+                    <h3 class="title">Education</h3>
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <h3 class="date">Dec 2019 - Mar 2020</h3>
+                    <h3 class="details">Triple black belt in Python, MERN, and C#...</h3>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="right-card"><!--First card-->
+                    <div class="section-title">
+                        <button class="indicator-requests">2</button>
+                        <h3 class="title">Connection Requests</h3>
+                    </div>
+                    <div class="img-bar-side">
+                        <div class="requesting-user">
+                            <img class="side-user" src="static/images/todd-s.jpg" alt="todd image">
+                            <h3 class="details">Todd E</h3>
+                        </div>
+                        <div class="connection-response">
+                            <input class="confirm-deny" type="image" src="static/icons/accept-circle.png">
+                            <input class="confirm-deny" type="image" src="static/icons/close-circle.png">
+                        </div>
+                    </div>
+                    <div class="img-bar-side">
+                        <div class="requesting-user">
+                            <img class="side-user" src="static/images/phil-s.jpg" alt="phil image">
+                            <h3 class="details">Phil K</h3>
+                        </div>
+                        <div class="connection-response">
+                            <input class="confirm-deny" type="image" src="static/icons/accept-circle.png">
+                            <input class="confirm-deny" type="image" src="static/icons/close-circle.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="right-card"><!--Second card-->
+                    <div class="section-title">
+                        <button class="indicator-connections">500+</button>
+                        <h3 class="title">Connection Requests</h3>
+                    </div>
+                    <div class="img-bar-side">
+                        <div class="requesting-user">
+                            <img class="side-user" src="static/images/adrien-s.jpg" alt="phil image">
+                            <h3 class="details">Adrien D</h3>
+                        </div>
+                    </div>
+                    <div class="img-bar-side">
+                        <div class="requesting-user">
+                            <img class="side-user" src="static/images/anne-s.jpg" alt="phil image">
+                            <h3 class="details">Anne J</h3>
+                        </div>
+                    </div>
+                    <div class="img-bar-side">
+                        <div class="requesting-user">
+                            <img class="side-user" src="static/images/alayne-s.jpg" alt="phil image">
+                            <h3 class="details">Alayne T</h3>
+                        </div>
+                    </div>
+                    <div class="img-bar-side">
+                        <div class="requesting-user">
+                            <img class="side-user" src="static/images/arry-s.jpg" alt="phil image">
+                            <h3 class="details">Arry Y</h3>
+                        </div>
+                        
+                    </div>
+                    <div id="view-more">
+                        <h4 class="details"><a href="#2">View More</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

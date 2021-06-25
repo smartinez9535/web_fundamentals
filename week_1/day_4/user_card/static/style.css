@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif
+}
+
+.container{
+    width: 1000px;
+    height: 1000px;
+}
+
+.card{
+    display: inline-block;
+    align-items: flex-start;
+    margin: 50px 50%;
+    width: 600px;
+    height: 300px;
+    outline: solid 1px gray;
+    
+}
+
+#top-bar{
+    display: inline-block;
+    background-color: cyan;
+    margin: 0px;
+    width: 600px;
+    height: 100px;
+}
+
+#user-img{
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    position: fixed;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+
+#name{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.text-bar{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.img-bar{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    margin: 10px 0px 10px 30px;
+}
+
+#marker-image{
+    width: 10px;
+    height: 15px;
+    display: inline;
+    margin: 10px 10px 10px 0px;
+}
+
+#gear-image{
+    width: 15px;
+    height: 15px;
+    display: inline;
+    margin: 10px 10px 10px 0px;
+}
+
+.details{
+    display: inline-block;
+}
