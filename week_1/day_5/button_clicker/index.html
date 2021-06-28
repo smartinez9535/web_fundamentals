@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <form id="search-bar" action="/process" method="post">
+                <div>
+                    <input type="text" name="searchbar" 
+                    placeholder="Search" >
+                </div>
+            </form>
+            <button id="sign-out" onclick="logOut(this)">Login</button>
+        </div>
+        <div class="main">
+            <div class="main-left">
+                <div class="left-card"><!--First card-->
+                    <div class="left-card-word">
+                        <h1 class="word">ninja</h1>
+                        <h3 class="word-details">noun</h3>
+                        <h3 class="word-details">Plural: <em>ninjas</em></h3>
+                        <button class="interact" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="left-card-definition">
+                        <h3 class="word-details">A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></h3>
+                    </div>
+                </div>
+                <div class="left-card"><!--First card-->
+                    <div class="left-card-word">
+                        <h1 class="word">ninja</h1>
+                        <h3 class="word-details">noun</h3>
+                        <h3 class="word-details">Plural: <em>ninjas</em></h3>
+                        <button class="interact" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="left-card-definition">
+                        <h3 class="word-details">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="right-card"><!--First card-->
+                    <h2 class="word">Dojonary is defined by YOU</h2>
+                    <button class="interact" onclick="removeButton(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

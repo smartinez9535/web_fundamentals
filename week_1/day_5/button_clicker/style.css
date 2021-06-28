@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 700px;
+    height: 1000px;
+    margin-left: 50px;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Start of navbar*/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #cccccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.nav-title{
+    color: black;
+}
+
+#sign-out{
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    font-size: 110%;
+    color: white;
+    background-color: #2b78e4;
+    box-shadow: 3px 3px black;
+}
+/*End of navbar*/
+
+.main{
+    display: flex;
+}
+
+.main-left{
+    margin-left: 0;
+    flex: 2;
+}
+
+.main-right{
+    margin-left: 50px;
+    flex: 1.2;
+}
+
+.left-card,
+.right-card{
+    display: inline-block;
+    margin-top: 30px;
+    outline: solid 2px black;
+}
+
+/*Start of Left Card*/
+.left-card{
+    display: flex;
+    width: 450px;
+    height: 200px;
+}
+
+.left-card-word{
+    flex: 1;
+    max-width: 150px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.left-card-word > .word{
+    margin: 10px;
+}
+
+.left-card-word > .word-details{
+    margin: 15px;
+}
+
+.left-card-word > .interact{
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    font-size: 110%;
+    color: black;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+}
+
+.left-card-definition{
+    flex: 2;
+    margin-right: 10px;
+    max-width: 400px;
+    height: inherit;
+    align-items: center;
+    text-align: center;
+}
+
+.left-card-definition > .word-details{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+/*End of Left Card*/
+
+
+/*Start of Right Card*/
+.right-card{
+    display: inline-block;
+    margin-right: 15%;
+    width: 200px;
+    min-height: 140px;
+}
+
+.right-card > .word{
+    margin: 10px;
+}
+
+.right-card > .interact{
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 160px;
+    height: 40px;
+    border: 2px solid black;
+    color: black;
+    background-color: #93c47d;
+    box-shadow: 3px 3px black;
+}
+/*End of Right Card*/
+
+
+
+
