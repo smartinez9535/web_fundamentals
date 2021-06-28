@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li><a href="#" onclick="alert('Loading weather report')"><b>Burbank</b></a></li>
+                <li><a href="#" onclick="alert('Loading weather report')"><b>Chicago</b></a></li>
+                <li><a href="#" onclick="alert('Loading weather report')"><b>Dallas</b></a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div id="title-bar">
+                <h1>San Jose</h1>
+                <ul class="title-info">
+                    <li><b>show temperature in </b></li>
+                    <li><select name="metric" oninput="measurementChange(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select></li>
+                </ul>
+            </div>
+            <div class="forecast">
+                <div class="column"><!--Left Column-->
+                    <h2>Today</h2>
+                    <img src="static/some_rain.png" alt="rain">
+                    <h4>some rain</h4>
+                    <ul class="temperature">
+                        <li class="high"><b>24°</b></li>
+                        <li class="low"><b>18°</b></li>
+                    </ul>
+                </div>
+                <div class="column"><!--Middle Left Column-->
+                    <h2>Tomorrow</h2>
+                    <img src="static/some_sun.png" alt="rain">
+                    <h4>some sun</h4>
+                    <ul class="temperature">
+                        <li class="high"><b>27°</b></li>
+                        <li class="low"><b>19°</b></li>
+                    </ul>
+                </div>
+                <div class="column"><!--Middle Right Column-->
+                    <h2>Friday</h2>
+                    <img src="static/some_clouds.png" alt="rain">
+                    <h4>some clouds</h4>
+                    <ul class="temperature">
+                        <li class="high"><b>21°</b></li>
+                        <li class="low"><b>16°</b></li>
+                    </ul>
+                </div>
+                <div class="column"><!--Right Column-->
+                    <h2>Saturday</h2>
+                    <img src="static/some_sun.png" alt="rain">
+                    <h4>some sun</h4>
+                    <ul class="temperature">
+                        <li class="high"><b>26°</b></li>
+                        <li class="low"><b>21°</b></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="alert">
+            <img src="static/cookie.png" alt="cookie">
+            <ul class="alert-info">
+                <h2><b>Stop! Cookie time</b></h2>
+                <h4>We use cookies (sadly not the edible ones) to peronalize content and ads, to provide social media features and to analyse our traffic.  <a href="">Read more...</a></h4>
+            </ul>
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">I Accept</span>
+        </div> 
+    <script src="main.js"></script>
+    </div>
+</body>
+</html>

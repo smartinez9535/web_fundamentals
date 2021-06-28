@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    margin-left: 50px;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Start of navbar*/
+.nav{
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9fc5f8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.nav-title{
+    color: white;
+    margin-left: 50px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links > li{
+    list-style-type: none;
+    margin-right: 50px;
+    font-size: 120%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/*End of navbar*/
+
+.main{
+    display: inline-block;
+    max-width: 800px;
+    height: 800px;
+}
+
+/*Start of title bar*/
+#title-bar{
+    margin: 15px 50px;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 2px black;
+}
+
+.title-info > li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+/*End of title bar*/
+
+/*Start of weather forecast*/
+.forecast{
+    display: flex;
+    text-align: center;
+    margin: 15px 50px;
+    width: 700px;
+    height: 400px;
+}
+
+.column{
+    flex: 1;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.temperature{
+    justify-content: space-between;
+    
+}
+
+.temperature > li{
+    display: inline-block;
+    margin: 20px;
+    list-style-type: none;
+}
+
+.high{
+    color: red;
+}
+
+.low{
+    color: blue;
+}
+/*End of weather forecast*/
+
+ /* The alert message box */
+.alert {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border: solid 3px black;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+  /* The close button */
+.closebtn {
+    height: 25px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 120%;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border: solid 2px black;
+    background-color: #9fc5f8;
+    box-shadow: 3px 3px black;
+}
+
+.alert-info{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+h4 > a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.alert > img{
+    width: 50px;
+    height: 50px;
+}
