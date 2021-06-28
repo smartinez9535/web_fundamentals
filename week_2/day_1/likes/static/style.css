@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 690px;
+    height: 1000px;
+    margin-left: 50px;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Start of navbar*/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.nav-title{
+    color: white;
+}
+/*End of navbar*/
+
+#title{
+    width: inherit;
+    margin: 10px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+}
+
+.main-right{
+    margin-left: 0;
+    flex: 2;
+}
+
+.main-left{
+    margin-right: 10px;
+    flex: 1;
+}
+
+.left-card,
+.right-card{
+    display: inline-block;
+    margin-top: 10px;
+    outline: solid 2px black;
+}
+
+/*Start of left Card*/
+.left-card{
+    display: inline-block;
+    margin-right: 15%;
+    width: 200px;
+    min-height: 140px;
+    text-align: center;
+}
+
+#user-img{
+    width: 85px;
+    height: 85px;
+    margin: 10px 58px;
+}
+
+.left-card > .word{
+    margin: 10px;
+    height: 40px;
+}
+
+.left-card > .interact{
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 160px;
+    height: 40px;
+    border: 2px solid black;
+    color: black;
+    background-color: #93c47d;
+    box-shadow: 3px 3px black;
+}
+/*End of left Card*/
+
+/*Start of right Card*/
+.right-card{
+    width: 450px;
+    height: 200px;
+}
+
+.right-card-name{
+    display: flex;
+    max-width: inherit;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.right-card-name > .word{
+    width: 150px;
+    margin: 10px 10px 10px 15px;
+}
+
+.right-card-name > .details{
+    margin: 10px 10px 10px 10px;
+}
+
+#like1,
+#like2,
+#like3{
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    font-size: 110%;
+    color: black;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+}
+
+.right-card-details{
+    margin-right: 10px;
+    max-width: inherit;
+    height: 100px;
+    align-items: center;
+    
+}
+
+.right-card-details > .details{
+    margin-left: 15px;
+}
+/*End of right Card*/
+
+
+/*Start of left Card*/
+.left-card{
+    display: inline-block;
+    margin-right: 15%;
+    width: 200px;
+    min-height: 140px;
+}
+
+.left-card > .word{
+    margin: 10px;
+}
+
+.left-card > .interact{
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 160px;
+    height: 40px;
+    border: 2px solid black;
+    color: black;
+    background-color: #93c47d;
+    box-shadow: 3px 3px black;
+}
+/*End of left Card*/
+
+
+
+

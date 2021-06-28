@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-title">Network</h1>
+        </div>
+        <h1 id="title">Your Feed</h1>
+        <div class="main"> 
+            <div class="main-left">
+                <div class="left-card"><!--Left card-->
+                    <img id="user-img" src="static/user-circle.png" alt="user photo">
+                    <h4 class="word"><a href="">Add an avatar</a></h4>
+                    <h3 class="word">James Doe</h3>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="right-card"><!--Right card 1-->
+                    <div class="right-card-name">
+                        <h2 class="word">Neil M</h2>
+                        <h3 id="like-count1">9 like(s)</h3>
+                        <button id="like1" onclick="likeCount(this)">Like</button>
+                    </div>
+                    <div class="right-card-details">
+                        <h3 class="details">I just set up this new discord bot, let me know what you all think. <a href="">link</a></h3>
+                    </div>
+                </div>
+                <div class="right-card"><!--Right card 2-->
+                    <div class="right-card-name">
+                        <h2 class="word">Nichole K</h2>
+                        <h3 id="like-count2">12 like(s)</h3>
+                        <button id="like2" onclick="likeCount(this)">Like</button>
+                    </div>
+                    <div class="right-card-details">
+                        <h3 class="details">Just finished my <a href="">next comic</a>, check it out.</h3>
+                    </div>
+                </div>
+                <div class="right-card"><!--Right card 3-->
+                    <div class="right-card-name">
+                        <h2 class="word"> Jim R</h2>
+                        <h3 id="like-count3">9 like(s)</h3>
+                        <button id="like3" onclick="likeCount(this)">Like</button>
+                    </div>
+                    <div class="right-card-details">
+                        <h3 class="details">I can't stop listening to the <a href="">new album</a>. Who else is liking it?</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
