@@ -7,6 +7,7 @@
     width: 800px;
     height: 600px;
     margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body{
@@ -99,6 +100,7 @@ img{
     display: inline-block;
     margin: 20px;
     list-style-type: none;
+    font-weight: bold;
 }
 
 .high{
@@ -129,6 +131,7 @@ img{
     height: 25px;
     width: 200px;
     margin-bottom: 10px;
+    margin-left: 10px;
     font-size: 120%;
     align-items: center;
     text-align: center;
@@ -143,6 +146,10 @@ img{
     margin-left: 10px;
 }
 
+.alert-info > li{
+    list-style-type: none;
+}
+
 h4 > a{
     color: blue;
     text-decoration: underline;
@@ -151,4 +158,5 @@ h4 > a{
 .alert > img{
     width: 50px;
     height: 50px;
+    margin-right: 10px;
 }

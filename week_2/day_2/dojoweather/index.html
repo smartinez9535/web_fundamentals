@@ -22,9 +22,9 @@
                 <h1>San Jose</h1>
                 <ul class="title-info">
                     <li><b>show temperature in </b></li>
-                    <li><select name="metric" oninput="measurementChange(this)">
-                        <option>°C</option>
-                        <option>°F</option>
+                    <li><select id="metric" onchange="measurementChange();" onfocus="this.selectedIndex = -1;">
+                        <option value="1">°F</option>
+                        <option value="2">°C</option>
                     </select></li>
                 </ul>
             </div>
@@ -34,8 +34,8 @@
                     <img src="static/some_rain.png" alt="rain">
                     <h4>some rain</h4>
                     <ul class="temperature">
-                        <li class="high"><b>24°</b></li>
-                        <li class="low"><b>18°</b></li>
+                        <li class="high" id="1"><b>24°</b></li>
+                        <li class="low" id="2"><b>18°</b></li>
                     </ul>
                 </div>
                 <div class="column"><!--Middle Left Column-->
@@ -43,8 +43,8 @@
                     <img src="static/some_sun.png" alt="rain">
                     <h4>some sun</h4>
                     <ul class="temperature">
-                        <li class="high"><b>27°</b></li>
-                        <li class="low"><b>19°</b></li>
+                        <li class="high" id="3"><b>27°</b></li>
+                        <li class="low" id="4"><b>19°</b></li>
                     </ul>
                 </div>
                 <div class="column"><!--Middle Right Column-->
@@ -52,8 +52,8 @@
                     <img src="static/some_clouds.png" alt="rain">
                     <h4>some clouds</h4>
                     <ul class="temperature">
-                        <li class="high"><b>21°</b></li>
-                        <li class="low"><b>16°</b></li>
+                        <li class="high" id="5"><b>21°</b></li>
+                        <li class="low" id="6"><b>16°</b></li>
                     </ul>
                 </div>
                 <div class="column"><!--Right Column-->
@@ -61,8 +61,8 @@
                     <img src="static/some_sun.png" alt="rain">
                     <h4>some sun</h4>
                     <ul class="temperature">
-                        <li class="high"><b>26°</b></li>
-                        <li class="low"><b>21°</b></li>
+                        <li class="high" id="7"><b>26°</b></li>
+                        <li class="low" id="8"><b>21°</b></li>
                     </ul>
                 </div>
             </div>
@@ -70,8 +70,8 @@
         <div class="alert">
             <img src="static/cookie.png" alt="cookie">
             <ul class="alert-info">
-                <h2><b>Stop! Cookie time</b></h2>
-                <h4>We use cookies (sadly not the edible ones) to peronalize content and ads, to provide social media features and to analyse our traffic.  <a href="">Read more...</a></h4>
+                <li><b>Stop! Cookie time</b></li>
+                <li>We use cookies (sadly not the edible ones) to peronalize content and ads, to provide social media features and to analyse our traffic.  <a href="">Read more...</a></li>
             </ul>
             <span class="closebtn" onclick="this.parentElement.style.display='none';">I Accept</span>
         </div> 
