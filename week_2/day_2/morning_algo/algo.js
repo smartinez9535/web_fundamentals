@@ -367,6 +367,7 @@ console.log(arr2d[0][2]);
 // the first index `0` will select the `[2, 5, 8]` sub-array
 // the second index `2` will select the `8` out of that sub-array
 
+
 // complete the following function
 function flatten(arr2d) {
     var flat = [];
@@ -374,8 +375,10 @@ function flatten(arr2d) {
     {
         for(var x = 0; x < arr2d[i].length; x++)
         {
-            var temp = arr2d[i][x]
-            flat.push(temp)
+            //var temp = arr2d[i][x]
+            //flat.push(temp)
+            
+            flat.push(arr2d[i][x])
         }
     }
     return flat;
